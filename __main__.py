@@ -7,10 +7,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common.by import By
 from datetime import datetime, timedelta
-from pywinauto import Application
 from selenium import webdriver
 from dotenv import load_dotenv
-from dotenv import set_key
 import sqlite3
 import json
 import time
@@ -648,7 +646,8 @@ if __name__ == "__main__":
     choice = 1
     
     while choice != 0:
-            
+        driver.get("https://www.bilibili.com")            
+
         print("0. 退出")
         print("1. 随机搜索UP主")
         print("2. 话题抽奖")

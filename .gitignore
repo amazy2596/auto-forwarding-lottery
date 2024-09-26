@@ -1,3 +1,12 @@
 .env
 added.db
 cookies.json
+.idea/auto-forwarding-lottery.iml
+.idea/dataSources.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/sqldialects.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/.gitignore
+.vscode/settings.json
